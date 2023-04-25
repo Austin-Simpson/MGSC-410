@@ -1,0 +1,32 @@
+Data includes subscribers who purchased between 10/1/2018 and 3/31/2020,
+The subscriber information file includes categorical (e.g. language) and summaried data (e.g. email engagement),
+Email metrics include reflect the 90 day period ending 3/31/2020,
+The app activity file contains actions subscribers took within the application for the same time period noted above,
+,
+Language,language selected by subscriber
+Subscription Type,"Limited = subscription has a defined expiration, usually 12 or 24 months from start date; Lifetime = perpetual subscription, indicated by end date in year 2098 or 2099"
+Subscription Event Type,Type of purchase; initial purchase or renewal
+Purchase Store,Web or app
+Purchase Amount,"Amount paid for subscription, available for web purchases only"
+Currency,Currency for purchase amount
+Subscription Start Date,Date subscription begins
+Subscription Expiration,Date subscription ends
+Demo User,Subscriber has used demo content on the app
+Free Trial User,Subscriber registered for a limited time free trial (usually 3 days)
+Free Trial Start Date,Date trial subscription begins
+Free Trial Expiration,Date trial subscription ends
+Auto Renew,Flag to indicate if subscriber has turned off the auto renew option
+Country,Country where subscriber lives (self reported)
+User Type,"Consumer or other (homeschool, business)"
+Lead Platform,"Platform subscriber used to engage with Rosetta Stone products (web, app, or unknown)"
+Email Subscriber,Subscriber is opted in to receive emails
+Push Notifications,Subscriber is opted in to receive push notifications
+Send Count,Number of emails sent to subscriber in past 90 days
+Open Count,Total number of times emails were opened by subscriber in past 90 days (of those sent during same time period)
+Click Count,Total number of times emails were clicked by subscriber in past 90 days (of those sent during same time period)
+Unique Open Count,Unique number emails opened by subscriber in past 90 days (of those sent during same time period)
+Unique Click Count,Unique number emails clicked by subscriber in past 90 days (of those sent during same time period)
+,
+App Session Platform,Platform used to access content
+App Activity Type,"Actions taken by user: App launch, Start (lesson or unit), Completed (lesson or unit), Onboarding content, or Other (any other action taken in app)"
+App Session Date,Date of subscriber activity
