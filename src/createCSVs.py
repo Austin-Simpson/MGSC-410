@@ -80,4 +80,4 @@ subscriberDF.to_csv('../data/subscriberClean.csv', index=False)
 
 merged_df = subscriberDF.merge(appDF, on='ID', how='left')
 
-merged_df.to_csv("../data/mergedClean.csv")
+# merged_df.to_csv("../data/mergedClean.csv")
